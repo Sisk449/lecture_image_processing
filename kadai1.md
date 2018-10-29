@@ -1,6 +1,6 @@
-# 課題１レポート（サンプル）
+# 課題１レポート
 
-標準画像「Lenna」を原画像とする．この画像は縦512画像，横512画素による正方形のディジタルカラー画像である．
+[https://nurse-web.jp/photo/](https://nurse-web.jp/photo/ "リンクのタイトル")．この画像は縦512画像，横512画素による正方形のディジタルカラー画像である．
 
 ORG=imread('Lenna.png'); % 原画像の入力  
 imagesc(ORG); axis image; % 画像の表示

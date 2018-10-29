@@ -1,6 +1,6 @@
 # 課題１レポート
 
-原画像はフリー素材サイト([https://nurse-web.jp/photo/](https://nurse-web.jp/photo/))より利用する。この画像は縦600画像，横401画素のディジタルカラー画像である．
+原画像はフリー素材サイト([https://nurse-web.jp/photo/](https://nurse-web.jp/photo/))より利用する。この画像は縦401画像，横600画素のディジタルカラー画像である．
 
 ORG=imread('satsutaba.jpg'); % 原画像の入力  
 imagesc(ORG); axis image; % 画像の表示

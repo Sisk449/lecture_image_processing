@@ -14,7 +14,7 @@ imagesc(ORG); colorbar; axis image; % 画像の表示
 
 以下のソースコードによって2階調画像に変換する.
 
-IMG = ORG>128;
+IMG = ORG>128;  
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 2階調画像に変換した結果を図2に示す.
@@ -23,10 +23,10 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 以下のソースコードによって4階調画像に変換する.
 
-IMG0 = ORG>64;
-IMG1 = ORG>128;
-IMG2 = ORG>192;
-IMG = IMG0 + IMG1 + IMG2;
+IMG0 = ORG>64;  
+IMG1 = ORG>128;  
+IMG2 = ORG>192;  
+IMG = IMG0 + IMG1 + IMG2;  
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 4階調画像に変換した結果を図3に示す.
@@ -34,14 +34,14 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 図3 4階調画像
 
 以下のソースコードによって8階調画像に変換する.
-IMG0 = ORG>32;
-IMG1 = ORG>64;
-IMG2 = ORG>96;
-IMG3 = ORG>128;
-IMG4 = ORG>160;
-IMG5 = ORG>192;
-IMG6 = ORG>224;
-IMG = IMG0 + IMG1 + IMG2 + IMG3 + IMG4 + IMG5 + IMG6;
+IMG0 = ORG>32;  
+IMG1 = ORG>64;  
+IMG2 = ORG>96;  
+IMG3 = ORG>128;  
+IMG4 = ORG>160;  
+IMG5 = ORG>192;  
+IMG6 = ORG>224;  
+IMG = IMG0 + IMG1 + IMG2 + IMG3 + IMG4 + IMG5 + IMG6;  
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 8階調画像に変換した結果を図4に示す.

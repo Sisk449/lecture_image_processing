@@ -18,7 +18,7 @@ IMG = ORG>128;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 2階調画像に変換した結果を図2に示す.
-![原画像](https://github.com/Sisk449/lecture_image_processing/blob/master/image/kadai2_1.png?raw=true)  
+![原画像](https://github.com/Sisk449/lecture_image_processing/blob/master/image/kadai2_2.png?raw=true)  
 図2 2階調画像
 
 以下のソースコードによって4階調画像に変換する.

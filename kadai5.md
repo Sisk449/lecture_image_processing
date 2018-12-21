@@ -42,4 +42,4 @@ pause;
 ```
 表示された2値画像を図2に示す.
  ![2値画像](https://github.com/Sisk449/lecture_image_processing/blob/master/image/kadai5_2.png?raw=true)  
-図1 2値画像
+図2 2値画像

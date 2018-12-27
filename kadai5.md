@@ -1,11 +1,11 @@
 # 課題5レポート
 
 ## 判別分析法を用いて画像を二値化する
-原画像はフリー素材サイト([https://www.pakutaso.com/20181102305post-18313.html](https://www.pakutaso.com/20181102305post-18313.html))より利用する。この画像は縦1062画像，横1600画素のディジタルカラー画像である.
+原画像は([http://i.imgur.com/XiuMs3d.jpg](http://i.imgur.com/XiuMs3d.jpg))より利用する.この画像は縦2048画像，横1364画素のディジタルカラー画像である.
 
 原画像を白黒濃淡画像へ変換する.
 ```
-ORG=imread('lacock.png'); % 原画像の入力
+ORG=imread('Kurena.png'); % 原画像の入力
 ORG = rgb2gray(ORG); colormap(gray);  
 imagesc(ORG); colorbar; axis image; % 画像の表示
 ```
@@ -47,3 +47,4 @@ pause;
 <div style="text-align: center;">
 図2 2値画像
 </div>
+対象物の人間に加えて背景の文字も対象物として判別されてしまった.
